@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+body{
+  height: 100vh;
+background-color: #1d1d1d;
+}
+ .loginPage{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #1d1d1d;
+   width: 30vw;
+   padding: 30px;
+   border-radius: 5px;
+   position: relative;
+   /* display: none; */
+   box-shadow: -1px 1px 5px 0px #313131;
+ }
+ h2{
+   color: white;
+   margin-bottom: 20px;
+ }
+ 
+ label{
+   color: white;
+   font-size: 12px;
+   font-weight: 400;
+ }
+ input , button{
+   width: 100%;
+   padding-left: 10px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+   outline: none;
+   border: none;
+   height: 30px;
+   border-radius: 5px;
+ }
+
+ #frg{
+   color: royalblue;
+   font-size: 13px;
+   position: absolute;
+   right: 30px;
+  text-decoration: underline;
+ }
+   button{
+   margin-top: 30px;
+   background-color: orange;
+   color: white;
+ }
+ p{
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+ }
+ mark{
+   background-color: transparent;
+   color: royalblue;
+   text-decoration: underline;
+ }
+ 
+ 
+ 
+ .signupPage{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #1d1d1d;
+   width: 30vw;
+   padding: 30px;
+   border-radius: 5px;
+   position: relative;
+   display: none;
+box-shadow: -1px 1px 5px 0px #313131;
+ }
+ 
+ .forgetPage{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #1d1d1d;
+   width: 30vw;
+   padding: 30px;
+   border-radius: 5px;
+   position: relative;
+   display: none;
+box-shadow: -1px 1px 5px 0px #313131;
+ }
+ 
+ @media (max-width: 700px){
+   .loginPage , .signupPage , .forgetPage{
+     width: 80vw;
+   }
+ }

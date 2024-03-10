@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+      <div class="loginPage">
+         <h2>Login</h2>
+         <label for="username">Username</label>
+         <input type="text" placeholder="made by @the_cyber_03" id="username">
+         
+         <label for="pass">Password</label>
+         <input type="password" id="pass">
+          
+         <p id="frg">Forget Password</p> 
+         
+         <button id="signInbtn">Login</button>
+         <p>I don't have an Account? <mark id="crt">Create an Account</mark> </p>
+         
+        
+      </div>
+     
+      <div class="signupPage">
+         <h2>Sign Up</h2>
+         <label for="name">Full Name*</label>
+         <input type="text" id="name">
+         
+         <label for="email">Email*</label>
+         <input type="email" id="email">
+         
+         <label for="pass">Create Password*</label>
+         <input type="password" id="pass">
+         
+         <label for="Apass">Confirm Password*</label>
+         <input type="password" id="Apass">
+          
+         <p id="ald">Already have an Account? <mark id="lgn">Login</mark></p> 
+         
+         
+         <button id="signupBtn">Sign Up</button>
+        
+      </div>
+      
+      <div class="forgetPage">
+        
+      <h2>Forget Password</h2>
+      
+       <label for="email">Email*</label>
+         <input type="email" id="email">
+         
+        <label for="otp">OTP*</label>
+         <input type="number" id="otp">
+         
+         <label for="pass">New Password*</label>
+         <input type="password" id="pass">
+         
+         <label for="Apass">Confirm Password*</label>
+         <input type="password" id="Apass">
+         
+        <button id="resetBtn">Reset Password</button>
+ 
+         <p id="no">No I Remember? <mark id="gb">Go back </mark></p>
+      </div>
+    
+      <script src="script.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
